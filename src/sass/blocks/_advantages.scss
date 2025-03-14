@@ -1,0 +1,45 @@
+.advantages {
+  min-height: 470px;
+  padding: 71px 0 64px 0;
+  background: url("../../images/bg/bg_advantages.jpg") center (center/cover)
+    no-repeat;
+  &__header {
+    /* НАШИ ПРЕИМУЩЕСТВА */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icon {
+    margin-top: 60px;
+    display: block;
+    width: 275px;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+  }
+  &__subheader {
+    margin-top: 35px;
+    /* Делимся опытом */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__descr {
+    margin-top: 20px;
+    /* Наши сотрудники всегда готовы поделиться своим опытом,  так как */
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+}
