@@ -19,4 +19,13 @@
     font-weight: 500;
     font-size: 16px;
   }
+  &_submit {
+    width: 100%;
+    height: 58px;
+    /* Кнопка */
+    background: $main_color;
+    /* заказать кОНСУЛЬТАЦИЮ копия */
+    font-size: 16px;
+    // line-height: 25px;
+  }
 }

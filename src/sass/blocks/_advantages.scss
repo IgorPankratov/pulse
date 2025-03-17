@@ -1,16 +1,8 @@
 .advantages {
   min-height: 470px;
   padding: 71px 0 64px 0;
-  background: url("../../images/bg/bg_advantages.jpg") center (center/cover)
+  background: url("../images/bg/bg_advantages.jpg") center (center/cover)
     no-repeat;
-  &__header {
-    /* НАШИ ПРЕИМУЩЕСТВА */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color: #0d0d0d;
-  }
   &__wrapper {
     display: flex;
     justify-content: space-between;
