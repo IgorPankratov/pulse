@@ -1,14 +1,35 @@
 @media (max-width: 992px) {
-    .container {
-        padding: 0 3vw;
+    // .container {
+    //     padding: 0 3vw;
+    // }
+    .header {
+        padding: 0 1vw;
+    }
+
+    .promo__wrapper {
+        padding: 0 1vw;
     }
     .advantages__icon {
         padding: 0 2vw;
     }
+
+    .consultation {
+        .title_left, &__descr {
+            margin-left: 1vw;
+        }
+    }
+
+    .feed-form {
+        margin-left: 1vw;
+    }
     
+    .carousel__inner {
+        width: 100vw;
+    }
 }
 @media (max-width: 769px) {
     .title {
+        text-align: center;
         font-size: 19px;
     }
     
@@ -67,8 +88,13 @@
 
     .consultation {
         &__descr {
+            text-align: center;
             font-size: 14px;
         }
+    }
+
+    .feed-form {
+        margin: 36px auto 0px;        
     }
   
 }

@@ -17,7 +17,7 @@ $(document).ready(function () {
       '<button type="button" class="slick-next"><img src="images/slider/chevron_right_solid.png"/></button>',
     responsive: [
       {
-        breakpoint: 992, // интервал на котором работают правила. От 0 до 992 px
+        breakpoint: 992, // интервал на котором работают правила. От 0 до 991 px
         settings: {
           dots: true,
           arrows: false,
