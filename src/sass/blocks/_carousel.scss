@@ -23,8 +23,19 @@
     left: auto;
   }
   .slick-dots {
+    width: 33%;
+    margin: 10px auto 0px;
     display: flex;
-    justify-content: center;
-    color: gold;
+    justify-content: space-evenly;
+    color: $main_color;
+    li::marker {
+      color: #c7010169;
+    }
+    button {
+      display: none;
+    }
+    .slick-active::marker {
+      color: $main_color;
+    }
   }
 }
