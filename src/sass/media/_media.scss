@@ -47,6 +47,12 @@
         justify-content: space-evenly;
     }
   }
+
+  .feedback {
+    &__item {
+      padding: 0 4vw;
+    }
+  }
 }
 @media (max-width: 769px) {
   .title {
@@ -121,6 +127,18 @@
   .catalog {
     &__content {
       justify-content: center;
+    }
+  }
+
+  .feedback {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: auto;
+        height: 100px;
+      }
     }
   }
 }

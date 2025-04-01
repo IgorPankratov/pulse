@@ -1,0 +1,34 @@
+.feedback {
+  &__item {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 61px;
+    img {
+      width: 169px;
+      height: 169px;
+    }
+    .user {
+      padding-bottom: 10px;
+      /* Ирина Иванченко    */
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      color: #0d0d0d;
+      span {
+        /* 2 полумарафона */
+        font-weight: 300;
+        font-size: 14px;
+        color: #646464;
+      }
+    }
+  }
+  &__content {
+    /* Не знала, что себе купить - обратилась к ребятам из RunSmart -  */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d0d0d;
+  }
+}
