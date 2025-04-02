@@ -1,0 +1,57 @@
+.footer {
+  margin-top: 48px;
+  height: 630px;
+  position: relative;
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: $main-color;
+    width: 460px;
+    height: 270px;
+    padding: 50px 68px 60px;
+  }
+  &__addr {
+    margin-bottom: 36px;
+    /* Москва, Мясницкий проезд, д.3с1  */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__phone {
+    /* 8 (499) 922-89-74  */
+    display: block;
+    margin-top: 36px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+  }
+  &__social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #fff;
+    border-radius: 100%;
+    margin: 0 15px;
+    img {
+        height: 27px;
+    }
+  }
+  &__social {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
