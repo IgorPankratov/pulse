@@ -122,6 +122,8 @@ validateForms('#consultation-form');
 validateForms('#consultation form');
 validateForms('#order form');
 
+$('input[name=phone]').mask("+7(999) 999-99-99");
+
 });
 
 
