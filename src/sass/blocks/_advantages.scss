@@ -15,6 +15,16 @@
         display: block;
         margin: 0 auto;
     }
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      // animation-name: heartbeat;
+      // animation-duration: 1.5s;
+      // animation-timing-function: ease;
+      // animation-iteration-count: infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
   }
   &__subheader {
     margin-top: 35px;
