@@ -19,9 +19,12 @@
     "sass": "^1.85.0"
   },
   "browserlist": [
-    "last 1 version", 
+    "last 1 version",
     "> 1%",
     "maintained node version",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
